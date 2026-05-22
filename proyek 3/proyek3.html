@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nusantara Kuliner — Project 3 — Darrell</title>
+  <link rel="stylesheet" href="proyek3.css">
+</head>
+<body>
+
+  <!-- Floating Header / Navbar -->
+  <header>
+    <nav class="navbar">
+      <a href="../index.html" class="nav-logo">
+        <svg class="nav-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+        </svg>
+        Darrell.
+      </a>
+      <ul class="nav-links">
+        <li><a href="../index.html#home">Home</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#grades">Grades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Container -->
+  <main class="fade-in-up">
+    <!-- Back to home link -->
+    <a href="../index.html" class="back-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+        <polyline points="12 5 19 12 12 19"></polyline>
+      </svg>
+      Kembali ke Home
+    </a>
+
+    <!-- Project Hero Section -->
+    <div class="proj-hero">
+      <span class="proj-tag">Project 03 — Portal Kuliner Nusantara</span>
+      <h1 class="proj-title">Nusantara Kuliner</h1>
+      <p class="proj-desc">
+        Sebuah katalog digital interaktif hidangan kuliner Nusantara yang mengintegrasikan resep masakan tradisional otentik dengan direktori pencarian restoran kuliner khas daerah.
+      </p>
+      
+      <!-- Project Action Buttons -->
+      <div class="proj-links">
+        <a href="https://ethanfiz.github.io/UH3TIK-kulinerNusantara/" target="_blank" class="btn-action live">
+          Live Website
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
+        <a href="https://github.com/EthanFiz/UH3TIK-kulinerNusantara" target="_blank" class="btn-action code">
+          GitHub Repository
+          <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Row 1: Halaman Utama (Katalog Makanan) -->
+    <div class="section-row">
+      <div class="row-text">
+        <span class="row-num">01 — Katalog Makanan</span>
+        <h2>Hidangan Populer Nusantara</h2>
+        <p>
+          Halaman katalog menyajikan daftar masakan daerah legendaris Indonesia (seperti Rendang, Sate, Rawon, dan Soto) dalam bentuk visual grid card yang responsif dan memukau.
+        </p>
+        <p>
+          Masing-masing makanan dilengkapi gambar beresolusi tinggi, tag asal daerah, rating rasa, dan ringkasan bahan utama.
+        </p>
+        <ul class="features-list">
+          <li>Desain card minimalis dengan efek hover bayangan yang halus.</li>
+          <li>Navigasi kategori dinamis untuk mempermudah pencarian.</li>
+        </ul>
+      </div>
+      <div class="row-img">
+        <img src="proyek3A.png" alt="Screenshot Katalog Nusantara Kuliner">
+      </div>
+    </div>
+
+    <!-- Row 2: Informasi Masakan (Detail Resep) -->
+    <div class="section-row reverse">
+      <div class="row-text">
+        <span class="row-num">02 — Informasi Masakan</span>
+        <h2>Detail Resep Otentik</h2>
+        <p>
+          Setiap menu makanan memiliki halaman detail resep tersendiri yang menampilkan bahan-bahan yang dibutuhkan dan panduan langkah pembuatan masakan secara mendalam.
+        </p>
+        <p>
+          Informasi waktu persiapan, jumlah porsi, serta tingkat kesulitan masakan ditampilkan dengan ringkasan visual berupa barisan badge ikonik.
+        </p>
+        <ul class="features-list">
+          <li>Penataan daftar bahan dan takaran yang presisi.</li>
+          <li>Kombinasi skema warna kontras untuk kenyamanan membaca resep di dapur.</li>
+        </ul>
+      </div>
+      <div class="row-img">
+        <img src="proyek3B.png" alt="Screenshot Detail Resep Rawon">
+      </div>
+    </div>
+
+    <!-- Row 3: Fitur Pencarian (Direktori Restoran) -->
+    <div class="section-row">
+      <div class="row-text">
+        <span class="row-num">03 — Direktori Restoran</span>
+        <h2>Direktori Restoran Legendaris</h2>
+        <p>
+          Halaman direktori restoran menyajikan daftar tempat kuliner legendaris yang menyediakan hidangan Nusantara terpercaya lengkap dengan alamat dan peta navigasi.
+        </p>
+        <p>
+          Dilengkapi kolom pencarian interaktif dan filter kategori regional (seperti masakan Sunda, Padang, atau Jawa) berbasis tag tombol dinamis.
+        </p>
+        <ul class="features-list">
+          <li>Kolom filter interaktif berbasis button tag kategori.</li>
+          <li>Sistem penilaian rating bintang yang terintegrasi.</li>
+        </ul>
+      </div>
+      <div class="row-img">
+        <img src="proyek3C.png" alt="Screenshot Direktori Restoran">
+      </div>
+    </div>
+
+    <!-- Tech Stack Box -->
+    <div class="tech-box">
+      <h3>Teknologi Pengembangan</h3>
+      <div class="tech-tags">
+        <span class="tech-tag">HTML5</span>
+        <span class="tech-tag">CSS3 / Grid System</span>
+        <span class="tech-tag">JavaScript DOM</span>
+        <span class="tech-tag">Dynamic Filters</span>
+      </div>
+    </div>
+  </main>
+
+  <!-- Simple Footer -->
+  <footer>
+    <p>&copy; 2026 Christian Darrell Laurence. TIK Kelas XI-A5 — Kolese Kanisius Jakarta.</p>
+  </footer>
+
+  <script src="proyek3.js"></script>
+</body>
+</html>
